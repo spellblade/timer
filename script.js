@@ -1,3 +1,7 @@
+function timer()
+{
+    var tm=window.setInterval('start()',1000);
+}
 function start() {
     var hh = parseInt(document.getElementById('hr').value);
     var mm = parseInt(document.getElementById('min').value);
